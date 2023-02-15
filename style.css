@@ -1,0 +1,35 @@
+
+
+head {
+  background-color: black;
+  color: white;
+}
+
+
+h1{
+    font-size: 30px;
+   font-family:futura;
+     text-align: center;
+  color:cornflowerblue;
+}
+
+
+
+h2{font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: chocolate;}
+    
+.pic{overflow:hidden;}
+.pic img{transform:scale(1,1);transition: all 1s ease-out;}
+.pic img:hover{transform:scale(1.2,1.2);}
+
+h3{position: relative;
+  top: -26px;
+  }
+
+p, .pic, iframe {
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+}
